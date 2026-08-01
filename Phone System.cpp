@@ -63,8 +63,8 @@ int main () {
          << setw(21)  << "3. Games\n";
 
     // Row 2
-    cout << setw(21) << "4. Camera";
-    //     << setw(21)  << "5. Facebook"
+    cout << setw(21) << "4. Camera"
+         << setw(21)  << "5. Facebook";
     //     << setw(21)  << "6. Netflix\n";
     // Row 3
     // cout << setw(18) << "7. Youtube"
@@ -211,6 +211,15 @@ int main () {
     cout << setw(60) << "This feature currently unavailable.\n";
     cout << setw(48) << "Returning to Apps....\n";
         break;
+
+//Facebook
+    case 5:
+        cout << "+++++++++++++++++++++++++++++++ Facebook +++++++++++++++++++++++++++++++\n";
+
+    cout << setw(60) << "This feature currently unavailable.\n";
+    cout << setw(48) << "Returning to Apps....\n";
+        break;
+    
                 }
             }
         }

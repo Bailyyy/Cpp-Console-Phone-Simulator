@@ -64,12 +64,9 @@ int main () {
 
     // Row 2
     cout << setw(21) << "4. Camera"
-         << setw(21)  << "5. Facebook";
-    //     << setw(21)  << "6. Netflix\n";
-    // Row 3
-    // cout << setw(18) << "7. Youtube"
-    //      << setw(23)  << "6. Netflix"
-    //      << setw(25)  << "9. Instagram\n";
+         << setw(21)  << "5. Facebook"
+         << setw(21)  << "6. App Store\n";
+
         
     /// --------- Addition Stuff i want to add but no time ---------
     
@@ -216,10 +213,26 @@ int main () {
     case 5:
         cout << "+++++++++++++++++++++++++++++++ Facebook +++++++++++++++++++++++++++++++\n";
 
-    cout << setw(60) << "This feature currently unavailable.\n";
+    cout << setw(60) << "This app is currently unavailable.\n";
     cout << setw(48) << "Returning to Apps....\n";
         break;
-    
+
+//App Store
+    case 6:
+        cout << "+++++++++++++++++++++++++++++++ App Store +++++++++++++++++++++++++++++++\n";
+
+    cout << setw(21) << "1. Youtube"
+         << setw(21) << "2. Netflix\n"
+         << setw(21) << "3. Got to Games\n";
+
+        cout << "Select an app to download: ";
+        cin >> num;
+        cout << endl;
+
+    cout << setw(60) << "Could not download app.\n";
+    cout << setw(48) << "Returning to Apps....\n";
+        break;
+     
                 }
             }
         }
